@@ -90,7 +90,7 @@ const EventDetails = () => (
       <DetailCard
         delay={0.25}
         label="Time"
-        value="8:00 PM"
+        value="3:00 PM"
         icon={
           <svg className="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}

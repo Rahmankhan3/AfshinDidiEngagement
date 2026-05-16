@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 /**
- * CountdownTimer — Large-digit countdown to 24 May 2026, 8 PM IST.
+ * CountdownTimer — Large-digit countdown to 24 May 2026, 3 PM IST.
  * Minimal clean design, mobile-first sizing.
  */
 const CountdownTimer = () => {
-  const target = new Date('2026-05-24T20:00:00+05:30').getTime();
+  const target = new Date('2026-05-24T15:00:00+05:30').getTime();
 
   const calc = () => {
     const d = target - Date.now();
